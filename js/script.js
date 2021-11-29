@@ -1,21 +1,22 @@
 "use strict";
 
-// let number = 5;
-// const leftBorderWidth = 1;
+let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели','');
 
-// number = 20;
-// console.log(number);
+const personalMovieDB = {
 
-// const obj = {
-//     name : "Slava",
-//     age : 22,
-//     isMarried: false 
-// };
+    count : numberOfFilms,
+    movies : {},
+    actors : {},
+    genders : [],
+    privat : false
+}
 
-// console.log(obj.name);
-// console.log(obj["name"]);
+let answer11 = prompt('Один их последних просмотренных фильмов?','');
+let answer12 = prompt('На сколько оцените его?','');
+let answer21 = prompt('Один их последних просмотренных фильмов?','');
+let answer22 = prompt('На сколько оцените его?','');
 
-// let arr = ['sl.png','oran.jpg','apple.bmp', 5, {}, []];
-// console.log(arr[1]);
+personalMovieDB.monies.answer11 = answer12;
+personalMovieDB.movies.answer21 = answer22;
 
-alert("Hi!");
+console.log(personalMovieDB.movies);
