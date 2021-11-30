@@ -54,3 +54,45 @@ for (let i = 1; i < 10; i++) {
     }
     console.log(i);
 }
+
+//Функция деларации
+function showFirstMessage(text) {
+    console.log(text);
+}
+
+showFirstMessage('Hi anyway');
+
+//Функция выражения
+const logger = function() {
+    console.log('Halo!');
+};
+
+//Функция стрелочная
+const calc = (a,b) => a + b;
+
+//Методы строк
+
+const str = 'Slava';
+
+console.log(str.toLocaleUpperCase());
+console.log(str.toLowerCase());
+
+let fruit = 'Some fruit';
+
+console.log(fruit.indexOf('fruit'));
+
+const logg = 'World';
+console.log(logg.slice(6,11));
+
+console.log(logg.substring());
+
+//Вырезает количество символов 2-ым аргументом
+console.log(logg.substr(6, 5));
+
+//Методы чисел
+const numb = 12.2;
+console.log(Math.round(numb));
+
+const test = '12.2px';
+console.log(parseInt(test));
+console.log(parseFloat(test));
